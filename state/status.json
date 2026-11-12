@@ -4,104 +4,104 @@
       "status": "ONLINE",
       "failures": 0,
       "http_status": 200,
-      "response_ms": 1073,
-      "last_checked": "2026-11-12 23:58:43 IST",
+      "response_ms": 824,
+      "last_checked": "2026-11-13 00:28:26 IST",
       "incident_started": null
     },
     "https://rengonitv.com": {
       "status": "ONLINE",
       "failures": 0,
       "http_status": 200,
-      "response_ms": 1296,
-      "last_checked": "2026-11-12 23:58:44 IST",
+      "response_ms": 2285,
+      "last_checked": "2026-11-13 00:28:28 IST",
       "incident_started": null
     },
     "https://amtelevision.in": {
       "status": "ONLINE",
       "failures": 0,
       "http_status": 200,
-      "response_ms": 333,
-      "last_checked": "2026-11-12 23:58:45 IST",
+      "response_ms": 407,
+      "last_checked": "2026-11-13 00:28:29 IST",
       "incident_started": null
     },
     "https://upstreammedia.in": {
       "status": "ONLINE",
       "failures": 0,
       "http_status": 200,
-      "response_ms": 333,
-      "last_checked": "2026-11-12 23:58:45 IST",
+      "response_ms": 343,
+      "last_checked": "2026-11-13 00:28:29 IST",
       "incident_started": null
     },
     "https://axom.co.in": {
       "status": "ONLINE",
       "failures": 0,
       "http_status": 200,
-      "response_ms": 852,
-      "last_checked": "2026-11-12 23:58:46 IST",
+      "response_ms": 1233,
+      "last_checked": "2026-11-13 00:28:30 IST",
       "incident_started": null
     },
     "https://nenewstv.in": {
       "status": "ONLINE",
       "failures": 0,
       "http_status": 200,
-      "response_ms": 424,
-      "last_checked": "2026-11-12 23:58:46 IST",
+      "response_ms": 431,
+      "last_checked": "2026-11-13 00:28:31 IST",
       "incident_started": null
     },
     "https://dainikjanambhumi.com": {
       "status": "ONLINE",
       "failures": 0,
       "http_status": 200,
-      "response_ms": 282,
-      "last_checked": "2026-11-12 23:58:46 IST",
+      "response_ms": 187,
+      "last_checked": "2026-11-13 00:28:31 IST",
       "incident_started": null
     },
     "https://dainikjanambhumi.co.in": {
       "status": "ONLINE",
       "failures": 0,
       "http_status": 200,
-      "response_ms": 235,
-      "last_checked": "2026-11-12 23:58:47 IST",
+      "response_ms": 299,
+      "last_checked": "2026-11-13 00:28:31 IST",
       "incident_started": null
     },
     "https://alpiers.com": {
       "status": "ONLINE",
       "failures": 0,
       "http_status": 200,
-      "response_ms": 483,
-      "last_checked": "2026-11-12 23:58:47 IST",
+      "response_ms": 531,
+      "last_checked": "2026-11-13 00:28:32 IST",
       "incident_started": null
     },
     "https://upstreammedia.in/getradecom": {
       "status": "ONLINE",
       "failures": 0,
       "http_status": 200,
-      "response_ms": 521,
-      "last_checked": "2026-11-12 23:58:48 IST",
+      "response_ms": 539,
+      "last_checked": "2026-11-13 00:28:32 IST",
       "incident_started": null
     },
     "https://getradecom.com/reward": {
       "status": "ONLINE",
       "failures": 0,
       "http_status": 200,
-      "response_ms": 544,
-      "last_checked": "2026-11-12 23:58:48 IST",
+      "response_ms": 653,
+      "last_checked": "2026-11-13 00:28:33 IST",
       "incident_started": null
     },
     "https://getradecom.com/policy": {
       "status": "ONLINE",
       "failures": 0,
       "http_status": 200,
-      "response_ms": 518,
-      "last_checked": "2026-11-12 23:58:49 IST",
+      "response_ms": 556,
+      "last_checked": "2026-11-13 00:28:33 IST",
       "incident_started": null
     },
     "https://sngroupofcompanies.in": {
       "status": "ONLINE",
       "failures": 0,
       "http_status": 200,
-      "response_ms": 427,
-      "last_checked": "2026-11-12 23:58:49 IST",
+      "response_ms": 419,
+      "last_checked": "2026-11-13 00:28:34 IST",
       "incident_started": null
     }
   }
