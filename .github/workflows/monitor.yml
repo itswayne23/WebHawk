@@ -1,0 +1,35 @@
+name: WEBWATCH monitoring
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+    - cron: '17 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: webwatch-monitor
+  cancel-in-progress: false
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install -r requirements.txt
+      - name: Run WEBWATCH
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          SEND_HOURLY_REPORT: ${{ github.event.schedule == '17 * * * *' && 'true' || 'false' }}
+          FAILURES_BEFORE_ALERT: '3'
+        run: python monitor_once.py
+      - name: Persist incident state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add state/status.json
+          git diff --cached --quiet || git commit -m "Update WEBWATCH state"
+          git push
